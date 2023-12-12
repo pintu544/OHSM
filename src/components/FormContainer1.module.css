@@ -1,0 +1,51 @@
+.company {
+  position: relative;
+  line-height: 110%;
+  font-weight: 500;
+}
+.footerComponentslinkfooter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+}
+.about {
+  position: relative;
+  line-height: 140%;
+}
+.iconJamIconsOutlineL {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerComponentslinkfooter4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  gap: var(--gap-5xs);
+}
+.footerComponentscolumn,
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.links {
+  align-self: stretch;
+  color: var(--blue-gray-200);
+}
+.footerComponentscolumn {
+  flex: 1;
+  text-align: left;
+  font-size: var(--body-2-medium-size);
+  color: var(--other-colors-white);
+  font-family: var(--body-m);
+}

@@ -1,0 +1,123 @@
+.plan {
+  color: var(--color-hotpink);
+}
+.chooseYourPlanContainer {
+  position: relative;
+  font-weight: 900;
+}
+.switchOrCancel {
+  position: relative;
+  font-size: var(--caption-m-size);
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  color: var(--color-silver);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 244.4px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.chooseYourPlanParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.feature,
+.text {
+  position: relative;
+}
+.feature {
+  line-height: 38px;
+  font-weight: 900;
+}
+.text {
+  line-height: 160%;
+}
+.listItemWith {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text2 {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+}
+.listItemWith2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-sm);
+  color: var(--other-colors-white);
+  font-family: var(--body-m);
+}
+.duoBasicInner,
+.featureParent,
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.featureParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+}
+.duoBasicInner {
+  position: absolute;
+  top: 37px;
+  left: calc(50% - 70.5px);
+  width: 141px;
+  align-items: center;
+}
+.duoBasic {
+  position: relative;
+  width: 199px;
+  height: 577px;
+}
+.duoBasicParent {
+  position: absolute;
+  top: 0.2px;
+  left: 45.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.plans1 {
+  position: relative;
+  width: 1278px;
+  height: 577px;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+}
+.frameParent,
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.plans {
+  justify-content: center;
+  padding: var(--padding-61xl) var(--padding-62xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-avenir);
+}

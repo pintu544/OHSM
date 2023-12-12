@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Avenir:wght@400;900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-2-medium: "DM Sans";
+  --font-sf-pro-text: "SF Pro Text";
+  --font-open-sans: "Open Sans";
+  --body-m: Roboto;
+  --font-avenir: Avenir;
+
+  /* font sizes */
+  --font-size-mini-5: 14.5px;
+  --body-2-medium-size: 16px;
+  --font-size-4xs-4: 8.4px;
+  --body-xs-size: 12px;
+  --heading-5-size: 32px;
+  --body-1-bold-size: 18px;
+  --font-size-sm: 14px;
+  --heading-3-size: 24px;
+  --caption-m-size: 20px;
+  --font-size-21xl: 40px;
+  --font-size-8xl: 27px;
+  --heading-2-size: 56px;
+  --heading-1-m-size: 72px;
+
+  /* Colors */
+  --other-colors-white: #fff;
+  --main-color: #e7319d;
+  --color-black: #000;
+  --neutrals-6: #e6e8ec;
+  --gray-line: #e5e7eb;
+  --greyscale-300: #e0e0e0;
+  --gray-gray-2: #1f2937;
+  --gray-gray-1: #111827;
+  --blue-gray-900: #0f172a;
+  --color-gray-100: #13151d;
+  --color-gray-200: #0a0f1b;
+  --gray-background: #f9fafb;
+  --color-whitesmoke-100: #f9f9f9;
+  --gray-gray-9: #f3f4f6;
+  --gray-default-icon: #9ca3af;
+  --blue-gray-600: #475569;
+  --gray-gray-3: #374151;
+  --blue-gray-700: #334155;
+  --gray-1: #333;
+  --blue-gray-200: #e2e8f0;
+  --indigo-100: #e0e7ff;
+  --indigo-800: #3730a3;
+  --green: #2fa551;
+  --pink-light: #ffe9f6;
+  --gray-gray-7: #d1d5db;
+  --color-silver: #c0c0c0;
+  --indigo-600: #4f46e5;
+  --indigo-500: #6366f1;
+  --color-hotpink: #f85e9f;
+  --default-alert: #da1e28;
+  --blue-600: #2563eb;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-29xl: 48px;
+  --gap-5xs: 8px;
+  --gap-183xl: 202px;
+  --gap-mini: 15px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-53xl: 72px;
+  --gap-xl: 20px;
+  --gap-21xl: 40px;
+  --gap-9xl: 28px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-61xl: 80px;
+  --padding-5xl: 24px;
+  --padding-29xl: 48px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-62xl: 81px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-11xs-4: 1.4px;
+  --br-10xs-8: 2.8px;
+  --br-base: 16px;
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+}

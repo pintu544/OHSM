@@ -1,0 +1,217 @@
+.categories {
+  position: relative;
+  line-height: 110%;
+  font-weight: 500;
+}
+.footerComponentslinkfooter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+}
+.userInterface {
+  position: relative;
+  line-height: 140%;
+}
+.footerComponentscolumn,
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.links {
+  align-self: stretch;
+  color: var(--blue-gray-200);
+}
+.footerComponentscolumn {
+  flex: 1;
+}
+.textContainer {
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+}
+.badge,
+.footerComponentslinkfooter9,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.badge {
+  border-radius: var(--br-9xs);
+  background-color: var(--indigo-100);
+  height: 20px;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--body-xs-size);
+  color: var(--indigo-800);
+}
+.footerComponentslinkfooter9 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  gap: var(--gap-5xs);
+}
+.iconJamIconsOutlineL {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.columns {
+  align-self: stretch;
+  border-bottom: 1px solid var(--blue-gray-700);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) 0;
+  gap: var(--gap-29xl);
+}
+.footerComponentslinkfooter30,
+.footerComponentsverticalMen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerComponentslinkfooter30 {
+  padding: var(--padding-xs) 0;
+}
+.footerComponentsverticalMen {
+  flex: 1;
+  gap: var(--gap-13xl);
+}
+.footerComponentssocialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.appStoreFilled {
+  position: relative;
+  width: 119.7px;
+  height: 40px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.getItOn {
+  position: absolute;
+  top: 11.5%;
+  left: 30.37%;
+  -webkit-text-stroke: 0.2px #fff;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  height: 42.5%;
+  width: 62.89%;
+  top: 42.5%;
+  right: 6.81%;
+  bottom: 15%;
+  left: 30.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  height: 33.5%;
+  width: 12%;
+  top: 48.5%;
+  right: 80.52%;
+  bottom: 18%;
+  left: 7.48%;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  height: 27.5%;
+  width: 9.26%;
+  top: 36.25%;
+  right: 75.56%;
+  bottom: 36.25%;
+  left: 15.19%;
+}
+.vectorIcon5,
+.vectorIcon6 {
+  height: 53.75%;
+  width: 8.22%;
+  top: 23.25%;
+  right: 84.37%;
+  bottom: 23%;
+  left: 7.41%;
+}
+.vectorIcon6 {
+  height: 32.25%;
+  width: 12.07%;
+  top: 17.75%;
+  right: 80.52%;
+  bottom: 50%;
+}
+.googlePlay {
+  position: relative;
+  width: 135px;
+  height: 40px;
+}
+.appDownload,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.appDownload {
+  justify-content: flex-end;
+  gap: var(--gap-base);
+  font-size: 8.38px;
+  color: var(--other-colors-white);
+  font-family: var(--font-open-sans);
+}
+.bottom {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0;
+  gap: var(--gap-13xl);
+  color: var(--blue-gray-200);
+}
+.footer {
+  background-color: var(--blue-gray-700);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-2-medium-size);
+  color: var(--other-colors-white);
+  font-family: var(--body-m);
+}

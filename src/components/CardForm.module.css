@@ -1,0 +1,122 @@
+.starter {
+  align-self: stretch;
+  position: relative;
+  line-height: 38px;
+  font-weight: 900;
+}
+.iconJamIconsOutlineL {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 160%;
+}
+.listItemWith {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.text2,
+.text8 {
+  position: relative;
+  line-height: 160%;
+}
+.text2 {
+  display: inline-block;
+  width: 259px;
+  flex-shrink: 0;
+}
+.text8 {
+  flex: 1;
+}
+.listItemWith8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.list,
+.starterParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-2-medium-size);
+  color: var(--other-colors-white);
+  font-family: var(--body-m);
+}
+.starterParent {
+  gap: var(--gap-9xl);
+}
+.startAFree {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer {
+  flex-direction: row;
+  justify-content: center;
+}
+.button,
+.button1,
+.frameParent,
+.textContainer {
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--indigo-600);
+  border: 1px solid var(--indigo-500);
+  box-sizing: border-box;
+  height: 56px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-base);
+}
+.button,
+.frameParent {
+  flex-direction: column;
+}
+.button {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  text-align: left;
+  font-size: var(--body-1-bold-size);
+  color: var(--other-colors-white);
+  font-family: var(--body-m);
+}
+.frameParent {
+  position: absolute;
+  top: 33.8px;
+  left: calc(50% - 130.4px);
+  width: 259px;
+  height: 508px;
+  justify-content: space-between;
+}
+.duoBasic {
+  position: relative;
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 312px;
+  height: 577px;
+  text-align: center;
+  font-size: var(--font-size-8xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-avenir);
+}

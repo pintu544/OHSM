@@ -1,0 +1,233 @@
+.caption {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: none;
+  color: var(--blue-gray-600);
+}
+.mainHeadline,
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 800;
+}
+.mainHeadline {
+  font-size: var(--heading-1-m-size);
+  display: none;
+}
+.secondaryHeadline {
+  font-size: var(--heading-2-size);
+}
+.paragraph,
+.top {
+  align-self: stretch;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.paragraph {
+  position: relative;
+  font-size: var(--body-1-bold-size);
+  line-height: 160%;
+  display: none;
+}
+.iconJamIconsOutlineL {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.button,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xl);
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--blue-600);
+  border: 2px solid var(--blue-600);
+  padding: 20px var(--padding-5xl);
+  font-size: var(--heading-3-size);
+  color: var(--other-colors-white);
+}
+.buttonText1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button2 {
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--blue-600);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+}
+.iconJamIconsOutlineL4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.textContainer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  z-index: 1;
+}
+.iconJamIconsOutlineL5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.text {
+  position: relative;
+  line-height: 140%;
+}
+.badge,
+.button3 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  border-radius: 12px;
+  background-color: var(--default-alert);
+  padding: 0.5px 5.5px;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--body-xs-size);
+  color: var(--other-colors-white);
+}
+.button3 {
+  border-radius: var(--br-5xs);
+  padding: var(--padding-xs) var(--padding-5xs);
+  position: relative;
+}
+.buttonsGroup,
+.sectionText {
+  display: none;
+  justify-content: flex-start;
+}
+.buttonsGroup {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  font-size: var(--body-2-medium-size);
+  color: var(--blue-600);
+}
+.sectionText {
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.frequentlyAskedQuestions {
+  position: relative;
+  font-weight: 900;
+}
+.div,
+.whatIsOne {
+  position: absolute;
+  top: 22.8px;
+  left: 1227.9px;
+  line-height: 30px;
+}
+.whatIsOne {
+  top: 23.8px;
+  left: 23.9px;
+  font-size: var(--caption-m-size);
+  text-align: left;
+}
+.question {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 1278.8px;
+  height: 78px;
+}
+.questionParent {
+  justify-content: center;
+  gap: var(--gap-5xl);
+  text-align: right;
+}
+.faqs,
+.pricing,
+.questionParent,
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faqs {
+  justify-content: center;
+  padding: var(--padding-61xl) var(--padding-62xl);
+  gap: 80px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-avenir);
+}
+.pricing,
+.section {
+  background-color: var(--color-gray-200);
+}
+.section {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-61xl);
+}
+.pricing {
+  position: relative;
+  width: 100%;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--caption-m-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-m);
+}
